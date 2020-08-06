@@ -39,6 +39,18 @@ h6 {
     font-family: 'Roboto', sans-serif;
 }
 
+.prod_img {
+    object-fit: contain;
+    height: 280px;
+    border: 1px solid #F7F7F0;
+}
+
+.prod_img_detail {
+    object-fit: contain;
+    height: 350px;
+    border: 1px solid #F7F7F0;
+}
+
 .btn:hover,
 .btn:focus {
     outline: none;
@@ -72,6 +84,8 @@ a#scrollUp i {
 .header_top {
     background: none repeat scroll 0 0 #F0F0E9;
 }
+
+
 
 .contactinfo ul li:first-child {
     margin-left: -15px;
